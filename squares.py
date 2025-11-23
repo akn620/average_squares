@@ -37,7 +37,6 @@ def convert_numbers(list_of_strings):
     --------
     >>> convert_numbers(["4", " 8 ", "15 16", " 23    42 "])
     [4.0, 8.0, 15.0, 16.0, 23.0, 42.0]
-
     """
     all_numbers = []
     for s in list_of_strings:
